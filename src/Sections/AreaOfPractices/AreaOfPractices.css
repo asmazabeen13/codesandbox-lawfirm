@@ -1,0 +1,50 @@
+.area {
+  margin-top: 51vh;
+  /* height: 100vh; */
+  margin-bottom: 20vh;
+  background-color: black;
+}
+
+.area h1 {
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 50px;
+  color: white;
+  padding-top: 40px;
+}
+
+.area .grid .business {
+  /* display: flex; */
+  /* flex-direction: column; */
+  /* align-items: center; */
+  width: 100%;
+  height: 342px;
+}
+.area img {
+  object-fit: "cover";
+}
+
+.area .grid .partnership {
+  width: 100%;
+  height: 342px;
+}
+
+.area .grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  margin-bottom: 30px;
+  gap: 30px;
+}
+
+.area .under {
+  position: absolute;
+  text-align: center;
+  left: 30%;
+  bottom: 32px;
+  background: none;
+  margin: auto;
+  font-weight: 500;
+  font-size: 1rem;
+}

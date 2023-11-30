@@ -1,0 +1,62 @@
+.ourteam {
+  background-color:black;
+  color:white;
+  margin-top:-40px;
+
+}
+
+.teamheading {
+    text-align: center;
+    font-size: 2.8rem;
+    margin-bottom: 80px;
+    padding-top:48px;
+    
+}
+
+.ourteam .teams {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+
+}
+
+.ourteam .team {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 20vw;
+    margin-bottom: 30px;
+}
+
+.ourteam .teamcard {
+    display: flex;
+    align-items: center;
+    width: 209px;
+    /* border: solid; */
+    position: relative;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+.ourteam .teamcard img{
+    border-radius: 20px;
+    overflow: hidden;
+    height: 68px;
+    width: 68px;
+   padding: 5px;
+}
+
+.ourteam .sanfole {
+    background: var(--css-primary);
+}
+
+.ourteam .sanfole img {
+    background: var(--css-primary);
+}
+
+.ourteam .sanfole  p{
+    background: var(--css-primary);
+    color: #000;
+}
